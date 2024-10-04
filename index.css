@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dancing+Script:wght@400..700&family=Gideon+Roman&family=Oswald:wght@200..700&family=Playwrite+BE+WAL:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dancing+Script:wght@400..700&family=Gideon+Roman&family=Oswald:wght@200..700&family=Playwrite+BE+WAL:wght@100..400&display=swap');
+body{
+    background-color: #ecebeb;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+main{
+    padding-top: 140px;
+}
+.card{
+    
+    background-position: 70% 40%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition-duration:0.5s;
+    background-position: 0.5s;
+    transform: 0.5s;
+    backdrop-filter: blur(10px);
+}
+marquee{
+    font-size: 20px;
+    background-color: #cfcece;
+    padding: 7px;
+}
+nav{
+    background-color: #cfcece;
+}
+.color{
+    color: #161310;
+    font-size: 30px;
+    font-size: 40;
+    margin-left: 5px;
+    padding: 0;
+}
+.color1{
+    color: #161310;
+    font-size: 18px;
+}
+.form-control{
+    margin-top: 20px;
+    width: 180px;
+    border: none;
+
+}
+::placeholder{
+    font-family: "Comic Neue", cursive;
+    padding-left: 10px;
+}
+.nav-link{
+    cursor: pointer;
+    color: #161310;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+.dropdown-menu{
+    background-color: transparent;
+    border: none;
+}
+.dropdown-item{
+    display: flex;
+    justify-content: right;
+}
+.link-btn{
+    text-decoration: none;
+}
+.modal{
+    backdrop-filter:blur(10px);
+    pointer-events: none;
+}
+.modal-body{
+    backdrop-filter:blur(10px);
+    background-color: #f3f3f3;
+
+}
+.modal-header{
+    background-color: #f3f3f3;
+}
+.modal-backdrop {
+    display: none;
+  }
+
+.form-control1{
+    height: 40px;
+    border: solid rgba(128, 128, 128, 0.24);
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.links{
+    
+}
+.link1{
+    width: 250px;
+    background-color:rgb(228, 228, 228);
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.links_logo{
+    font-size: 40px;
+    
+    
+}
+.link_text{
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    color:#161310;
+    text-decoration:gray;
+    margin-left: 30px;
+
+}
+.link_text:hover{
+    text-shadow: 0 0 10px ;
+    transition-duration: 1s;
+
+}
+card1{
+    margin-top: 30px;
+    filter: grayscale(0);
+}
+.card_container{
+    
+    box-shadow: inset 0 0 100px rgba(43, 43, 43, 0.7);
+}
+card2{
+    opacity: 0;
+    transition-duration: 2s;
+    position: relative;
+    
+    
+}
+card1:hover card2{
+    opacity: 1;
+    filter: grayscale(1);
+    transition-duration: 0.5s;
+}
+.blogs{
+    
+}
+
+.blog1{
+    background-color:none;
+
+}
+.blog_image img{
+    box-shadow: inset 0px 0px 100px rgb(0, 0, 0);
+    width: 70%;
+}
+.image_container{
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.image_row{
+    justify-content: center;
+    display: flex; 
+    overflow: hidden;
+    width: 870px;
+}
+.big_image_row{
+    justify-content: center;
+    display: flex; 
+    width: 870px;
+    background-color: white;
+}
+
+.image_col{
+    /* object-fit: cover; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 220px;
+    background-color: rgba(128, 128, 128, 0.462);
+    transition-duration: 0.8s;
+    overflow: hidden;
+}
+.big_image_col{
+    /* object-fit: cover; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width:fit-content;
+    background-color: rgba(128, 128, 128, 0.462);
+    transition-duration: 0.8s;
+    overflow: hidden;
+}
+
+.image_class{
+    object-fit: cover;
+    filter: grayscale(1);
+    transition-duration:0.8s;
+}
+.image_class:hover{
+    object-fit: cover;
+    transition-duration:0.8s;
+    filter: grayscale(0);
+}
+.image_col:hover{
+    align-items: center;
+    /* overflow: hidden; */
+    object-fit: cover;
+    filter: grayscale(0);
+    filter: blur(0px);
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+    transition-duration: 0.8s;
+    background-color: rgba(128, 128, 128, 0.462);
+}
